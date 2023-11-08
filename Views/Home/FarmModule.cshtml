@@ -1,0 +1,667 @@
+﻿
+@{
+    ViewData["Title"] = "FeedMill";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<partial name="productNav.cshtml" ... />
+<button onclick="topFunction()" id="myBtn" title="Go to top" visible="none" >Top</button>
+<div class="farm-module" id="farmModule" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin: 20px; padding: 10px; ">
+    <h5 style="color: orangered; padding-top:10px; padding-left:10px; padding-right:10px;"><strong>FARM MODULE</strong></h5>
+    <div class="row">
+        <div class="col-md-8">
+            <div style="padding:10px;">
+
+                <div class="row">
+                    <div class="col-6">
+                        <p>
+                            We manage your poultry farm efficiently. Providing records management and performance analysis for
+                            commercial farmers >250 birds up to vertical integrations with multiple farms / sheds and millions of birds.
+                            Can be configured for broilers, commercial layers or (Grand)Parent Stock.
+
+                        </p>
+                        <p>
+                            Data entry using a mobile app is feasible regardless of where your farm is located. In order to enable
+                            smooth operations even at remote farm locations, the app stores data locally until you have internet
+                            connectivity, at which point it can sync to the system.
+                            Monitor your farm health by monitoring key parameters. Get instant alerts & analysis for quick actions &
+                            decision making
+
+                        </p>
+                        <p>
+                            In this farm module all transactional activities related to the farm are grouped together.
+                            The cycle starts with Planning Flocks, Placing Flocks, Daily Ops and finally Closing Flocks. Then during, and
+                            at the end of a cycle various report to analyze performance, or lack thereof, can be run to pinpoint issues
+                            and suggest corrective action
+
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p>
+                            <center>
+                                <img src="~/lib/img/FLOCKS-removebg-preview (1).png" alt="" class="img-fluid" height="400" width="400" />
+                            </center>
+                        </p>
+                        <p>
+                            We believe in continuous monitoring as a basis for
+                            continuous improvement. By starting with a plan a
+                            solid foundation is created on which to base
+                            operational and financial expectations.
+                            After the plan comes the actual work. Placing the
+                            flock, daily maintenance and recordkeeping. This
+                            data is used to establish deviations and suggest
+                            improvements
+
+                        </p>
+                        <p>
+                            Upon reaching the target weight or age birds are
+                            send for processing. The sheds are cleaned and
+                            readied for a new cycle. This is when bird
+                            management improvements are introduced to
+                            attain better results next round.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color: orangered; background-color:whitesmoke;">
+                            Layer Farm
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                Layer Management System is exclusively for the
+                                commercial layer poultry farmer which helps in not
+                                only record-keeping but also has a
+                                decision-making tool.
+                            </p>
+                            <p>
+                                <center>
+                                    <img class="img-fluid" src="~/lib/img//pexels-artem-beliaikin-1459451.jpg" alt="Alternate Text" />
+                                </center>
+                            </p>
+                            <p>
+                                With IGC Farm Module, you can keep tabs on
+                                every aspect of egg production and bird health.
+                                Install early adversity detection and prevention
+                                systems in your layer farms.
+
+                            </p>
+                            <p>
+                                Utilize a real-time dashboard to track and keep
+                                track of performance data, table egg stock,
+                                mortality, and production data.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Broiler Farm
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            @*<p>
+                                    <center>
+                                        <img class="img-fluid" src="~/lib/img/zoe-schaeffer-gHAAa9U4a0k-unsplash.jpg" alt="Alternate Text" />
+                                    </center>
+                                </p>*@
+                            <p>
+                                Track flock performances and increase
+                                production with I grow chicken. Our
+                                broiler farm module guarantees that the
+                                entire production process is carefully
+                                monitored and controlled. To increase
+                                yield, every factor that influences the
+                                health of the chick or bird can be
+                                observed and analyzed, from Day Old
+                                Chicks(DOC), housing, brooding, and
+                                growth.
+                            </p>
+                            <p>
+                                Improve the efficiency of your broiler
+                                farm operations with automatic feed
+                                and vaccination generation. Our broiler
+                                farm management software makes it
+                                simple to set up automatic schedules
+                                based on standards and DOC receipt
+                                quantity throughout the lifecycle of the
+                                flock/batch (day by day, week by week,
+                                month by month).
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Breeder Farm
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                With improved data collecting and
+                                projection capabilities, IGC breeding
+                                farm module provides operational
+                                efficiency, cost optimizations, and
+                                increased production.
+
+                            </p>
+                            <p>
+                                Ease the operations of your breeder
+                                farm. Based on a combination of
+                                consumption, historical values, and
+                                standards, IGC breeder farm module
+                                can intelligently and accurately forecast
+                                (and place an order for) the required
+                                feed, vaccination quantities
+
+                            </p>
+                            <p>
+                                Our breeding farm management system
+                                features dashboards that you can
+                                customize to view house- and flock-level
+                                data sliced across various time intervals,
+                                among many other data visualization
+                                choices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="feedMill" class="feedmill" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin: 20px; padding: 10px; ">
+    <h5 style="color: orangered; padding-top:10px; padding-left:10px; padding-right:10px;"><strong>FEEDMILL</strong></h5>
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="img-fluid" src="/lib/img/pexels-oleksandr-pidvalnyi-375510.jpg" alt="Alternate Text" />
+        </div>
+        <div class="col-lg-8">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>
+                        But what do chickens eat to thrive and lay plenty
+                        of delicious fresh eggs? Map your chicken feed
+                        program from the start. Select a complete poultry
+                        feed that is formulated specifically for your bird’s
+                        age, species or stage of production.
+                        Analyze several yield characteristics, including
+                        egg weight, bird weight, and egg production in
+                        relation to the feed given to the flock and
+                        additional feed raw materials.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    Improve nutrition and feed conversion, track
+                    ingredients to formulas, compute feed costs,
+                    anticipate consumption and delivery schedules
+                    using IGC software
+                    With IGC you will be able to monitor feed
+                    production, consumption, and sales using a
+                    real-time dashboard that is available whenever
+                    and wherever you are.
+                </div>
+            </div>
+            <center>
+                <a asp-area="" asp-controller="Home" asp-action="BookingDemo"><button class="btn btn-danger">BookDemo</button></a>
+
+            </center>
+        </div>
+    </div>
+</div>
+
+<div id="hatchery" class="hatchery" style="height:300px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin: 20px; padding: 10px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/lib/img/hen-g825d36563_1920.jpg) no-repeat center center; background-size: cover;">
+    <center>
+        <h5 style="color: orangered; padding-top:10px; padding-left:10px; padding-right:10px;"><strong>HATCHERY</strong></h5>
+    </center>
+    <div class="row">
+        <div class="col-lg-5">
+            <p style="background-color: white; padding: 15px;">
+                Igrowchicken gives you the option to
+                perform breakopen analysis, chick
+                grading, and many other features,
+                which improves the quality of your
+                production. Using a real-time
+                dashboard, plan, track and keep an
+                eye on your hatch statistics, dispatch,
+                and sales.
+            </p>
+        </div>
+        <div class="col-2">
+
+        </div>
+        <div class="col-lg-5">
+            <p style="background-color:white; padding:15px;">
+                Keep track of beginning data, egg
+                supply from receipt until chick
+                placement .hatching results, and
+                quality standards. Discover the
+                factors that affect chick quality and
+                hatchability
+            </p>
+        </div>
+    </div>
+</div>
+<div id="supplyChain" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin: 20px; padding: 10px; ">
+    <h5 style="color: orangered; padding-top:10px; padding-left:10px; padding-right:10px;"><strong>Supply Chain Management</strong></h5>
+    <p>
+        I grow Chicken supply chain involves production, transport,
+        processing, packaging and storage, and retailing. Activities
+        require inputs – such as financing and raw materials –
+        which are used to add value and to bring poultry and
+        poultry products to consumers.
+    </p>
+    <p>
+        Be able to track orders, transfers, Inventory summary and
+        Transactions and generate invoices too when using our
+        ERP system
+    </p>
+    <center>
+        <h5>
+            KEY AREAS ON OUR SUPPLY CHAIN
+        </h5>
+    </center>
+    <p>
+        <ul>
+            <li style="list-style:none;">Input to the whole supply Chain</li>
+            <li style="list-style:none;"> Making sure that all products are available</li>
+            <li style="list-style:none;">Warehouse</li>
+            <li style="list-style:none;">Optimizing where there is end products</li>
+        </ul>
+
+    </p>
+</div>
+
+<div id="process" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin: 20px; padding: 10px;">
+    <div>
+        <img class="img-fluid" src="~/lib/img/mother-hen-gf2401d360_1920.jpg" alt="Alternate Text" style="width:100%; height:300px;" />
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <h5 style="color: orangered; padding-top:10px; padding-left:10px; padding-right:10px;">
+                <strong>
+                    Primary processing
+                </strong>
+            </h5>
+            <p>
+                Our poultry processing software handles a
+                variety of primary processing needs, such as
+                flock intake, slaughter, integration with bird
+                counters, weighers, and grading systems,
+            </p>
+            <p>
+                This allows I Grow Chicken to monitor
+                throughput efficiencies, capture reject rates
+                and reasons including weighing of the
+                rejected birds. Also allows our system to
+                handle poultry payments or provide the
+                relevant details for the ERP system to
+                complete payments.
+            </p>
+        </div>
+        <div class="col-6">
+            <h5 style="color: orangered; padding-top:10px; padding-left:10px; padding-right:10px;">
+                <strong>
+                    Secondary Processing
+                </strong>
+            </h5>
+            <p>
+                Secondary processing deals with the
+                processing of the raw carcass into
+                value-added product forms .I grow
+                chicken software caters for all activities
+                in poultry secondary processing
+                including yield control, packing and
+                processing, and generates reports
+                based on both the secondary and
+                primary processes.
+            </p>
+        </div>
+    </div>
+
+    <h5>
+    </h5>
+</div>
+
+<!--<div class="farm-module" id="farmModule">
+    <div id="accordion">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card-header" id="headingOne">
+                    <center>
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="text-decoration:none; font-size:20px; color:orangered;">
+                                <strong>
+                                    Farm Module
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-up" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M7.776 5.553a.5.5 0 0 1 .448 0l6 3a.5.5 0 1 1-.448.894L8 6.56 2.224 9.447a.5.5 0 1 1-.448-.894l6-3z" />
+                                    </svg>
+                                </strong>
+                            </button>
+                        </h5>
+                    </center>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwostyle=" style="text-decoration:none; font-size:20px; color:orangered;">
+                            <strong>
+                                Layer Farm
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </strong>
+                        </button>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThreestyle=" style="text-decoration:none; font-size:20px; color:orangered;">
+                            <strong>
+                                Broiler Farm
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </strong>
+                        </button>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFourstyle=" style="text-decoration:none; font-size:20px; color:orangered;">
+                                <strong>
+                                    Breeder Farm
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                    </svg>
+                                </strong>
+                            </button>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/lib/img/roosters-g35be4d5fc_1920.jpg) no-repeat center center; background-size: cover; ">-->
+@*<img src="~/lib/img/pexels-artem-beliaikin-1459451.jpg" alt="" class="img-fluid" />*@
+<!--<div style="margin-right:250px; margin-left:250px;">
+                        <div style="background-color:white;">
+                            <p>
+                                We manage your poultry farm efficiently. Providing records management and performance analysis for
+                                commercial farmers >250 birds up to vertical integrations with multiple farms / sheds and millions of birds.
+                                Can be configured for broilers, commercial layers or (Grand)Parent Stock.
+
+                            </p>
+                            <p lang="en">
+                                Data entry using a mobile app is feasible regardless of where your farm is located. In order to enable
+                                smooth operations even at remote farm locations, the app stores data locally until you have internet
+                                connectivity, at which point it can sync to the system.
+                                Monitor your farm health by monitoring key parameters. Get instant alerts & analysis for quick actions &
+                                decision making
+
+                            </p>
+                            <p>
+                                In this farm module all transactional activities related to the farm are grouped together.
+                                The cycle starts with Planning Flocks, Placing Flocks, Daily Ops and finally Closing Flocks. Then during, and
+                                at the end of a cycle various report to analyze performance, or lack thereof, can be run to pinpoint issues
+                                and suggest corrective action
+
+                            </p>
+                            <p>
+                                <center>
+                                    <img src="~/lib/img/FLOCKS-removebg-preview (1).png" alt="" class="img-fluid" height="400" width="400" />
+                                </center>
+                            </p>
+                            <p>
+                                We believe in continuous monitoring as a basis for
+                                continuous improvement. By starting with a plan a
+                                solid foundation is created on which to base
+                                operational and financial expectations.
+                                After the plan comes the actual work. Placing the
+                                flock, daily maintenance and recordkeeping. This
+                                data is used to establish deviations and suggest
+                                improvements
+
+                            </p>
+                            <p>
+                                Upon reaching the target weight or age birds are
+                                send for processing. The sheds are cleaned and
+                                readied for a new cycle. This is when bird
+                                management improvements are introduced to
+                                attain better results next round.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="card">
+
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/lib/img/pexels-artem-beliaikin-1459451.jpg) no-repeat center center; background-size: cover; ">
+
+                        <div style="margin-right:250px; margin-left:250px;">
+                            <div style="background-color:white;">
+                                <p>
+                                    Layer Management System is exclusively for the
+                                    commercial layer poultry farmer which helps in not
+                                    only record-keeping but also has a
+                                    decision-making tool.
+                                </p>
+                                <p>
+                                    With IGC Farm Module, you can keep tabs on
+                                    every aspect of egg production and bird health.
+                                    Install early adversity detection and prevention
+                                    systems in your layer farms.
+
+                                </p>
+                                <p>
+                                    Utilize a real-time dashboard to track and keep
+                                    track of performance data, table egg stock,
+                                    mortality, and production data.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/lib/img/zoe-schaeffer-gHAAa9U4a0k-unsplash.jpg) no-repeat center center; background-size: cover; ">
+
+                        <div style="margin-right:250px; margin-left:250px;">
+                            <div style="background-color:white;">
+                                <p>
+                                    Track flock performances and increase
+                                    production with I grow chicken. Our
+                                    broiler farm module guarantees that the
+                                    entire production process is carefully
+                                    monitored and controlled. To increase
+                                    yield, every factor that influences the
+                                    health of the chick or bird can be
+                                    observed and analyzed, from Day Old
+                                    Chicks(DOC), housing, brooding, and
+                                    growth.
+                                </p>
+                                <p>
+                                    Improve the efficiency of your broiler
+                                    farm operations with automatic feed
+                                    and vaccination generation. Our broiler
+                                    farm management software makes it
+                                    simple to set up automatic schedules
+                                    based on standards and DOC receipt
+                                    quantity throughout the lifecycle of the
+                                    flock/batch (day by day, week by week,
+                                    month by month).
+
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body breeder" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/lib/img/thomas-iversen-4W8FgDVyUME-unsplash.jpg) no-repeat center center; background-size: cover; ">
+
+                    <div style="margin-right:250px; margin-left:250px;">
+                        <div style="background-color:white;">
+                            <p>
+                                With improved data collecting and
+                                projection capabilities, IGC breeding
+                                farm module provides operational
+                                efficiency, cost optimizations, and
+                                increased production.
+
+                            </p>
+                            <p>
+                                Ease the operations of your breeder
+                                farm. Based on a combination of
+                                consumption, historical values, and
+                                standards, IGC breeder farm module
+                                can intelligently and accurately forecast
+                                (and place an order for) the required
+                                feed, vaccination quantities
+
+                            </p>
+                            <p>
+                                Our breeding farm management system
+                                features dashboards that you can
+                                customize to view house- and flock-level
+                                data sliced across various time intervals,
+                                among many other data visualization
+                                choices.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="feedMill" style="background-color: #b3a7a1;">
+    <h5>FeedMill</h5>
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="img-fluid" src="/lib/img/pexels-oleksandr-pidvalnyi-375510.jpg" alt="Alternate Text" />
+        </div>
+        <div class="col-lg-8">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>
+                        But what do chickens eat to thrive and lay plenty
+                        of delicious fresh eggs? Map your chicken feed
+                        program from the start. Select a complete poultry
+                        feed that is formulated specifically for your bird’s
+                        age, species or stage of production.
+                        Analyze several yield characteristics, including
+                        egg weight, bird weight, and egg production in
+                        relation to the feed given to the flock and
+                        additional feed raw materials.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    Improve nutrition and feed conversion, track
+                    ingredients to formulas, compute feed costs,
+                    anticipate consumption and delivery schedules
+                    using IGC software
+                    With IGC you will be able to monitor feed
+                    production, consumption, and sales using a
+                    real-time dashboard that is available whenever
+                    and wherever you are.
+                </div>
+            </div>
+            <center>
+                <button>BookDemo</button>
+            </center>
+        </div>
+    </div>
+</div>
+
+<div id="hatchery" style="margin: 40px; padding: 20px; ">
+    <center> <h5>Hatchery</h5></center>
+    <div class="row" style="background-color: white; ">
+        <div class="col-lg-6">
+            <p>
+                Igrowchicken gives you the option to
+                perform breakopen analysis, chick
+                grading, and many other features,
+                which improves the quality of your
+                production. Using a real-time
+                dashboard, plan, track and keep an
+                eye on your hatch statistics, dispatch,
+                and sales.
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <p>
+                Keep track of beginning data, egg
+                supply from receipt until chick
+                placement .hatching results, and
+                quality standards. Discover the
+                factors that affect chick quality and
+                hatchability
+            </p>
+        </div>-->
+@*<div class="mymarquee" style="background-size: cover; height:100px; width:50%;">
+        <marquee behavior="scroll" direction="left">
+            <img src="~/lib/img/productsIcons/chick.png" alt="Alternate Text" height="60" />
+        </marquee>
+        <marquee behavior="scroll" direction="left">
+            <img src="~/lib/img/productsIcons/chick.png" alt="Alternate Text" height="60" />
+           </marquee>
+            <img src="~/lib/img/productsIcons/chick.png" alt="Alternate Text" height="60" />
+            <img src="~/lib/img/productsIcons/chick.png" alt="Alternate Text" height="60" />
+            <img src="~/lib/img/productsIcons/chick.png" alt="Alternate Text" height="60" />
+            <img src="~/lib/img/productsIcons/chick.png" alt="Alternate Text" height="60" />
+    </div>*@
+
+
+@*</div>
+    </div>
+
+    <div id="supplyChain">
+        <h5>Supply Chain Management</h5>
+    </div>
+
+    <div id="process">
+        <h5>
+            Primary processing
+        </h5>
+        <h5>
+            Secondary Processing
+        </h5>
+    </div>*@

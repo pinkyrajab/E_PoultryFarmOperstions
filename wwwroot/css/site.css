@@ -1,0 +1,466 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    /*background-color: #C0C0C0;*/
+    background-color: white;
+    /*font-family: Verdana, Arial, sans-serif;*/
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+/*.myBody{
+    margin-right:40px;
+    margin-left:40px;
+}*/
+/*.valueChains {
+    background-color: #C0C0C0;
+}*/
+.container-fluid {
+    background-color: white;
+}
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+/*.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}*/
+
+/*.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}*/
+
+.topbar {
+    text-align: right;
+    padding-right: 90px;
+    background-color: black;
+   /* position: sticky;
+    top: 0;*/
+    padding-bottom:0;
+}
+    .topbar a {
+        color: #fcc200;
+        padding-left: 15px;
+        text-decoration: none;
+        padding-top: 30px;
+    }
+.topbar a:hover{
+    color:orangered;
+}
+
+.navbar {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.nav-link {
+    padding-top:0!important;
+    color: white !important;
+    margin-top:0!important;
+}
+.nav-link:hover{
+    color:orange !important;  
+    /*background-color:orange;*/
+}
+
+.navbar-brand {
+    color: white !important;
+    padding-top:0;
+}
+
+
+    /* Sticky footer styles
+-------------------------------------------------- */
+html{
+       font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+.carousel-item {
+    width: 100%;
+    height: 450px;
+    
+}
+.homeimg1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/lib/img/thomas-iversen-4W8FgDVyUME-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+}
+.homeimg2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/lib/img/thomas-iversen-4W8FgDVyUME-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+}
+.homeimg3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/lib/img/thomas-iversen-4W8FgDVyUME-unsplash.jpg) no-repeat center center ;
+    background-size: cover;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.info{
+    padding-top:15px;
+}
+.BookDemo{
+    background-color:orange;
+    color:black;  
+    border:none;
+   /* height:30px;*/
+    text-align:center;
+    /*width:15px;*/
+    margin-top:30px;
+}
+.BookDemo:hover{
+    background-color:orangered;
+    color:white;
+
+}
+h4 {
+    color: red;
+    text-shadow: 1px 1px 2px #C0C0C0;
+}
+img .keyFeatures{
+    width:100%;
+    height:10px!important;
+}
+
+/*.About-us{
+    background-color: white;
+    
+}*/
+@media (max-width: 576px) {
+    .myAboutLogo {
+        display: none;
+    }
+}
+@media (max-width: 440px) {
+    .About-us {
+        margin-left: 50px !important;
+    }
+}
+
+/*.footer {*/
+ /* position: absolute;*/
+  /*bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;*/ /* Vertically center the text there */
+/*}*/
+/*.mysidenav {
+    background-color: gray;
+    height: 1000px;
+}
+.mysidenav ul li{
+    list-style:none;  
+}
+.mysidenav ul li a{
+    list-style:none;
+    text-decoration:none;
+    color:white;
+    padding-bottom:50px;
+}
+.mysidenav ul li a:hover{
+    text-decoration:none;
+    color:orangered;
+}
+*/
+.products {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-bottom: 8%;
+        width: 300%;
+    }
+
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+}
+.products{
+    padding-top:5px;
+    align-items:center;
+}
+.farm-icon img{
+    width:150px;
+    height:150px;
+
+}
+ul li{
+    list-style:none;
+}
+ul li button{
+    width:100%;
+    border:none;
+
+}
+h3{
+    color:orangered;
+    
+}
+/*.layer {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/lib/img/pexels-artem-beliaikin-1459451.jpg) no-repeat center center;
+    background-size: cover;
+}
+.broiler {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/lib/img/zoe-schaeffer-gHAAa9U4a0k-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+}
+.breeder {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/lib/img/thomas-iversen-4W8FgDVyUME-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+}*/
+
+/*nav .breadcrumb{
+    margin:0!important;
+  
+    align-items:center;
+}*/
+/*.Farms{
+      background-color: #e9ecef;
+      padding:0;
+      margin:0;
+}
+.Farms ul{
+    margin-block-start:0!important;
+    margin-block-end:0!important;
+}
+.Farms ul li a:hover{
+    color:orangered;
+}
+.farm-module{
+    margin:0;
+    padding:0;
+}
+.broilerFarm {
+    background-color: #e9ecef;
+}*/
+/*#FarmModule {
+    background-color:white;
+}
+#feedMill{
+    background-color:grey;
+}
+#HatcheryModule{
+    color:white;
+}
+#SupplyChain{
+    color:grey;
+}
+#Process{
+    color:white;
+}*/
+
+.register {
+    /*background: -webkit-linear-gradient(left, #3931af, #00c6ff);*/
+    background: -webkit-linear-gradient(left, #e42313, orangered);
+    margin-top: 3%;
+    padding: 3%;
+}
+
+.register-left {
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+
+    .register-left input {
+        border: none;
+        border-radius: 1.5rem;
+        padding: 2%;
+        width: 60%;
+        background: #f8f9fa;
+        font-weight: bold;
+        color: #383d41;
+        margin-top: 30%;
+        margin-bottom: 3%;
+        cursor: pointer;
+    }
+
+.register-right {
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+.register-left img {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.register-left p {
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+
+.register .register-form {
+    padding: 10%;
+    margin-top: 10%;
+}
+
+.btnRegister {
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+
+.register .nav-tabs {
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+
+    .register .nav-tabs .nav-link {
+        padding: 2%;
+        height: 34px;
+        font-weight: 600;
+        color: #fff;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+    }
+
+        .register .nav-tabs .nav-link:hover {
+            border: none;
+        }
+
+        .register .nav-tabs .nav-link.active {
+            width: 100px;
+            color: #0062cc;
+            border: 2px solid #0062cc;
+            border-top-left-radius: 1.5rem;
+            border-bottom-left-radius: 1.5rem;
+        }
+
+.register-heading {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+.form-group{
+    margin-bottom:10px;
+}
+
+#myBtn {
+   /* display: none;*/ /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+    #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+    }
+
+footer {
+    background-color: black;
+    color: white;
+    bottom: 0;
+}
+footer ul li{
+    list-style:none;
+}
+footer ul li a{
+    text-decoration:none;
+    color:white;
+}
+footer ul li a:hover{
+    text-decoration:none;
+    color:orangered;
+}
+footer ul li p{
+     text-decoration:none;
+     color:white;
+}
+footer ul li p:hover{
+    text-decoration:none;
+    color:orangered;
+}
+h6{
+    padding-left:20px;
+    color:orange;
+}

@@ -1,0 +1,330 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="bd-example">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item homeimg1 active">
+                            @*<img class=" img-fluid d-block w-100" src="~/lib/img/thomas-iversen-4W8FgDVyUME-unsplash.jpg" alt="Alternate Text" />*@
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item homeimg2">
+                            @*<img class="homeimg img-fluid d-block w-100" src="~/lib/img/thomas-iversen-4W8FgDVyUME-unsplash.jpg" alt="Alternate Text" />*@
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item homeimg3">
+                            @*<img class="homeimg img-fluid d-block w-100" src="~/lib/img/thomas-iversen-4W8FgDVyUME-unsplash.jpg" alt="Alternate Text" />*@
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 info">
+            <p>
+                I Grow Chicken, is an independent poultry management software company that develops apps for the
+                agricultural sector, helping farmers attain higher profitability through timely actionable information
+            </p>
+            <p>
+                The ERP I Grow Chicken assists poultry farms, hatcheries, and poultry industry integrators maintain
+                insight and act on data so that you can make decisions more rapidly. Plan your poultry operation, oversee it, and report on it.
+            </p>
+            <p>
+                Learn more about your flocks. With its adaptable features, you may manage your poultry however you like. To evaluate the effectiveness of
+                your business, it is essential to keep accurate records of your flock.
+                All relevant data can be recorded: Mortalities, Feed & Water, Temperatures& Humidity, Weighing of
+                Birds and Eggs, Egg-Picking, Vaccination and medication
+            </p>
+            <center>
+                @*<a href="BookingDemo.cshtml"><button class="BookDemo btn btn-danger">Book Demo</button></a>*@
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Book Demo
+                </button>
+            </center>
+        </div>
+    </div>
+    <hr />
+    <div class="valueChains">
+        <center> <h4>OUR VALUE CHAINS</h4></center>
+        @*<img class="img-fluid d-block" src="~/lib/img/valuechain.png" alt="Alternate Text" />*@
+        <p>
+            The value chain involves several activities, such as breeding, feed production, input supply (feed, breeding chicks, treatments),
+            poultry production, collection and trade (of eggs or live birds), slaughter, processing, final sale and consumption.
+        </p>
+        <p>
+            Tracking & tracing integrated, from breeder flock, through hatchery, through broiler farm to slaughterhouse
+        </p>
+    </div>
+
+    <div class="keyFeatures" id="whyUs">
+        <center> <h4>WHY US? </h4></center>
+        <div class="card-group">
+            <div class="card">
+                <img class="keyFeatures card-img-top img-fluid" style="height:300px!important;" src="/lib/img/pexels-pixabay-534216.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Know Where your business stands</h5>
+                    <p class="card-text">
+                        Monitor performance and costs together.
+                        With IGC we give you the option to monitor
+                        your daily, weekly, monthly, and yearly costs,
+                        as well as your earnings and profits in your
+                        poultry farms
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="keyFeatures card-img-top img-fluid" src="" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Gather field data offline, then synchronize it with
+                        the system.
+                    </h5>
+                    <p class="card-text">
+                        <small class="text-muted">
+                            Gather field data offline, then synchronize it with
+                            the system.
+                        </small>
+                    </p>
+                    <p class="card-text">
+                        By collecting and analyzing your data the software
+                        suggests improvement areas to help attain better
+                        results. Information is used as the starting point
+                        for continuously improving the business thereby
+                        earning more and securing continuity.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="keyFeatures card-img-top img-fluid" style="height:300px!important;" src="/lib/img/REPORT.png" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Custom fields and reporting will extend
+                        functionalities.
+                    </h5>
+                    <p class="card-text">
+                        <small class="text-muted">
+                            Custom fields and reporting will extend
+                            functionalities.
+                        </small>
+                    </p>
+                    <p class="card-text">
+                        60+ reports support analysis to
+                        improve operational as well as financial
+                        performance which give you a clear
+                        picture of how the business is doing and
+                        where it can potentially improve.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <p>
+            <center> <strong>We manage Breed Records, Poultry Records and Poultry financial records for your poultry farm</strong></center>
+        </p>
+        @*<div class="row">
+            <div class="col-lg-4">
+                <div class="col-lg-12">
+                    <img class="img-fluid d-block w-100" src="~/lib/img/pexels-pixabay-534216.jpg" alt="Alternate Text" />
+                </div>
+                <div class="col-lg-12">
+                    <p>
+                        KNOW WHERE YOUR BUSINESS STANDS Monitor performance and costs together.
+                        With IGC we give you the option to monitor
+                        your daily, weekly, monthly, and yearly costs,
+                        as well as your earnings and profits in your
+                        poultry farms
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="col-lg-12">
+                    <img class="img-fluid d-block w-100" src="~/lib/img/pexels-mathias-reding-4467961.jpg" alt="Alternate Text" />
+                </div>
+                <div class="col-lg-12">
+                    <p>
+                        Gather field data offline, then synchronize it with
+                        the system.
+                    </p>
+                    <p>
+                        By collecting and analyzing your data the software
+                        suggests improvement areas to help attain better
+                        results. Information is used as the starting point
+                        for continuously improving the business thereby
+                        earning more and securing continuity.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="col-lg-12">
+                    <img class="img-fluid d-block w-100 " src="~/lib/img/REPORT.png" alt="Alternate Text" />
+                </div>
+                <div class="col-lg-12">
+                    <p>
+                        Custom fields and reporting will extend
+                        functionalities.
+                    </p>
+                    <p>
+                        60+ reports support analysis to
+                        improve operational as well as financial
+                        performance which give you a clear
+                        picture of how the business is doing and
+                        where it can potentially improve.
+                    </p>
+                </div>
+            </div>*@
+
+    </div>
+</div>
+
+<div class="row">
+
+</div>
+<!-- Modal -->
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <center><h1 class="modal-title fs-5" id="staticBackdropLabel">Book Demo</h1></center>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid register">
+                    <div class="row">
+                        <div class="col-md-3 register-left">
+                            <img src="/lib/img/logoyellow-removebg-preview.png" style="width:130px!important;" height="130" alt="" />
+                            <h3 style="color:whitesmoke;"><strong>Welcome</strong></h3>
+                            <p>You are 30 seconds away from improving your farm!</p>
+                        </div>
+                        <div class="col-md-9 register-right">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <h3 class="register-heading">Please enter your details</h3>
+                                    <form action="/" method="post" onsubmit="myBookingDemo">
+                                        <div class="row register-form">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input runat="server" id="txtFullNames" type="text" class="form-control" placeholder="Full Names *" value="" name="txtFullNames"  />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" id="txtEmail" class="form-control" placeholder="Email Address*" value="" name="txtEmail"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" id="txtCompany" class="form-control" placeholder="Company Name *" value="" name="txtCompany"  />
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="text" id="txtPhone" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Phone Number*" value="" dirname="txtPhone"  />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>What areas do you want to use with our ERP? *</label>
+                                                    <div class="maxl">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="Layer, Broiler and Breeder Farm" id="flexCheckDefault">
+                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                Layer, Broiler and Breeder Farm
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="Grand Parent Farm" id="flexCheckChecked">
+                                                            <label class="form-check-label" for="flexCheckChecked">
+                                                                Grand Parent Farm
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="Parent Stock Layer" id="flexCheckChecked">
+                                                            <label class="form-check-label" for="flexCheckChecked">
+                                                                Parent Stock Layer
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="Finances" id="flexCheckChecked">
+                                                            <label class="form-check-label" for="flexCheckChecked">
+                                                                Finances
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <select class="form-control" id="timeSlot">
+                                                                <option class="hidden" selected disabled>Please select a Time Slot *</option>
+                                                                <option value="20mins">20mins</option>
+                                                                <option value="30mins">30mins</option>
+                                                                <option value="1hour">1hour</option>
+                                                                <option value="1hour 30 mins">1hour 30 mins</option>
+                                                                <option value="2hours">2hours</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Any additional information about your farm</label>
+                                                    @*<textarea data-val="true" data-val-maxlength="The field MainText must be a string or array type with a maximum length of &#x27;300&#x27;."
+                                                                  data-val-maxlength-max="10"
+                                                                  id="MainText"
+                                                                  name="MainText">
+                                                        </textarea>*@
+                                                    <textarea id="Remarks" maxlength="100" name="Remarks"></textarea>
+                                                </div>
+                                                <input type="submit" id="myBtnSubmit" class="btnRegister" style="background-color:darkorange;" value="Book" />
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                @*<button type="button" class="btn btn-primary">BOOK</button>*@
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

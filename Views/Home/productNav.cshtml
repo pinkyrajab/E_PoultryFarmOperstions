@@ -1,0 +1,69 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20|| document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+<div class="container-fluid" style="background-color: whitesmoke; ">
+    <div class="products" >
+        <center>
+            <div class="row farm-icon">
+                <div class="col-lg-1">
+
+                </div>
+                <div class="col-lg-2">
+                    <center>
+                        <a href="#farmModule"><img class="img-fluid" src="~/lib/img/productsIcons/farm.png" alt="Alternate Text" /></a>
+                        <p><center><strong>Farm</strong></center></p>
+                    </center>
+                </div>
+                <div class="col-lg-2">
+                    <center>
+                        <a href="#feedMill"><img class="img-fluid" src="~/lib/img/productsIcons/feedmill.png" alt="Alternate Text" /></a>
+                        <p><center><strong>FeedMill</strong></center></p>
+                    </center>
+
+                </div>
+                <div class="col-lg-2">
+                    <center>
+                        <a href="#hatchery"><img class="img-fluid" src="~/lib/img/productsIcons/hatchery.png" alt="Alternate Text" /></a>
+                        <p><center><strong>Hatchery</strong></center></p>
+                    </center>
+                </div>
+                <div class="col-lg-2">
+                    <center>
+                        <a href="#supplyChain"><img class="img-fluid" src="~/lib/img/productsIcons/supply-chain (1).png" alt="Alternate Text" /></a>
+                        <p><center><strong>Supply Chain Management</strong></center></p>
+                    </center>
+                </div>
+                <div class="col-lg-2">
+                    <center>
+                        <a href="#process"><img class="img-fluid" src="~/lib/img/productsIcons/process.png" alt="Alternate Text" /></a>
+                        <center> <p><strong>Secondary and Primary Processing</strong></p></center>
+                    </center>
+                </div>
+                <div class="col-lg-1">
+
+                </div>
+            </div>
+        </center>
+    </div>
+</div>
